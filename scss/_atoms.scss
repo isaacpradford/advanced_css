@@ -1,0 +1,26 @@
+@use 'variables';
+
+h1 {
+    @include variables.title-styling;
+}
+
+h2 {
+    @include variables.header-styling;
+    font-size: 50px;
+}
+
+h3 {
+    @include variables.header-styling;
+}
+
+a {
+    @include variables.link-styling;
+
+    :hover {
+        background-color: variables.$gold;
+    }
+}
+
+p {
+    @include variables.text-content-styling;
+}

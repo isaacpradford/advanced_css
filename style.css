@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:wght@200&family=UnifrakturCook:wght@700&display=swap");
+h1 {
+  font-family: "UnifrakturCook", cursive;
+  text-align: center;
+  font-size: 80px;
+  color: #1C1F21;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #1C1F21;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #1C1F21;
+}
+
+a {
+  color: #D64045;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+a :hover {
+  background-color: #FCC736;
+}
+
+p {
+  color: #1C1F21;
+  font-family: "Maven Pro", sans-serif;
+  text-align: center;
+}
+
+.designer-name {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
