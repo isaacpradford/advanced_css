@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:wght@200&family=UnifrakturCook:wght@700&display=swap");
+
+header{
+  text-align: center;
+}
+
 h1 {
   font-family: "UnifrakturCook", cursive;
   text-align: center;
@@ -6,17 +11,19 @@ h1 {
   color: #1C1F21;
 }
 
-h2 {
+h2, h3{
   font-family: "Nunito", sans-serif;
   text-align: center;
-  font-size: 40px;
+  margin-top:50px;
+}
+
+h2 {
   color: #1C1F21;
   font-size: 50px;
 }
 
+
 h3 {
-  font-family: "Nunito", sans-serif;
-  text-align: center;
   font-size: 40px;
   color: #1C1F21;
 }
@@ -27,11 +34,23 @@ a {
   font-size: 20px;
   text-decoration: none;
 }
-a :hover {
-  background-color: #FCC736;
+
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
 }
 
 p {
+  margin: 5px;
   color: #1C1F21;
   font-family: "Maven Pro", sans-serif;
   text-align: center;
@@ -41,5 +60,25 @@ p {
   font-weight: 300;
   font-size: 15px;
 }
+
+.preamble, .summary{
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+.page-wrapper {
+  border-style: solid;
+    border-width:5px;
+  padding:5px;
+  }
+
+  footer {
+    text-align: center;
+  }
+  
+  footer a:link, footer a:visited {
+    margin-right: 20px;
+  }
 
 /*# sourceMappingURL=style.css.map */
