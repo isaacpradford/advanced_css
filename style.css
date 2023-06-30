@@ -58,7 +58,8 @@ p {
 
 .designer-name {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 20px;
+  float: right;
 }
 
 .preamble, .summary{
@@ -80,5 +81,23 @@ p {
   footer a:link, footer a:visited {
     margin-right: 20px;
   }
+
+  .design-selection {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .zen-resources{
+text-align: center;
+
+  }
+
+  .zen-resources li{
+    display: inline;
+  margin: 10px;
+  border: 10px;
+margin-left: 0;
+  }
+
 
 /*# sourceMappingURL=style.css.map */
