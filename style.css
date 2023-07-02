@@ -99,5 +99,11 @@ text-align: center;
 margin-left: 0;
   }
 
+  .design-archives li{
+display: inline;
+  }
+
+  .design-archives .viewall{
+float: right;      }
 
 /*# sourceMappingURL=style.css.map */
