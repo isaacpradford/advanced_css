@@ -89,6 +89,7 @@ p {
 
   .zen-resources{
 text-align: center;
+padding-top: 20px;
 
   }
 
@@ -103,7 +104,16 @@ margin-left: 0;
 display: inline;
   }
 
+  .design-archives .next{
+    float: left;      
+    padding-left: 18%;
+    padding-bottom: 20px;
+
+    }
+
   .design-archives .viewall{
-float: right;      }
+float: right;      
+padding-right: 20%;
+}
 
 /*# sourceMappingURL=style.css.map */
