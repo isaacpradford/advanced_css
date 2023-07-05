@@ -56,6 +56,10 @@ p {
   text-align: center;
 }
 
+.intro{
+  padding-top: 50px;
+}
+
 .designer-name {
   font-weight: 300;
   font-size: 20px;
@@ -90,7 +94,7 @@ p {
   .zen-resources{
 text-align: center;
 padding-top: 20px;
-padding-bottom: 100px;
+padding-bottom: 180px;
   }
 
   .zen-resources li{
@@ -116,7 +120,11 @@ float: right;
 padding-right: 20%;
 }
 
-.extra1{
+.requirements{
+
+}
+
+.extra4{
   background-image: url("images/baroqueCorner.png");
 background-repeat: no-repeat;
 right: -20px;
@@ -124,17 +132,7 @@ top: -20px;
 width: 200px;
 height: 200px;
 position:absolute;
-transform: rotate(-90deg);}
-
-.extra2{
-  background-image: url("images/baroqueCorner.png");
-background-repeat: no-repeat;
-left: -20px;
-top: -20px;
-width: 200px;
-height: 200px;
-position:absolute;
-transform: rotate(180deg);
+transform: rotate(-90deg);
 }
 
 .extra3{
@@ -148,5 +146,29 @@ position:absolute;
 transform: rotate(180deg);
 }
 
+.extra2{
+  background-image: url(images/baroqueCorner.png);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  width: 200px;
+  height: 200px;
+  margin-right: 0;
+  transform: rotate(0deg);
+  position: relative;
+  bottom: 370px;
+  border-right: 20px;
+  right: -30px;
+}
+
+.extra1{
+  background-image: url(images/baroqueCorner.png);
+  background-repeat: no-repeat;
+  right: 20px;
+  bottom: 170px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform: rotate(90deg);
+}
 
 /*# sourceMappingURL=style.css.map */
