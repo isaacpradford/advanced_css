@@ -121,8 +121,17 @@ padding-right: 20%;
 }
 
 .requirements{
-
+  background-image: url("images/baroque1.png");
+background-repeat: repeat-x;
 }
+
+.requirements img{
+position: absolute;
+top: 0;
+}
+
+.requirements h3{
+padding-top: 100px;}
 
 .extra4{
   background-image: url("images/baroqueCorner.png");
