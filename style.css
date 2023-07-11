@@ -78,6 +78,16 @@ p {
   padding:5px;
   }
 
+  .explanation{
+    background-image: url("images/BachhBach.png");
+background-repeat: no-repeat;
+  }
+
+  .explanation h3{
+padding-top: 400px;
+  }
+
+
   footer {
     text-align: center;
   }
