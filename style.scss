@@ -1,3 +1,4 @@
+//  sass --watch style.scss style.css
 @use 'scss/atoms';
 @use 'scss/molecules';
 @use 'scss/organisms';
@@ -5,7 +6,73 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:wght@200&family=UnifrakturCook:wght@700&display=swap');
 
-.designer-name {
-    font-weight: 300;
-    font-size: 15px;
+
+
+#zen-intro::before {
+    content: "Toccata and Fugue in D Minor";
 }
+#zen-intro > header {
+    @include variables.header-styling;
+    text-align: center;
+}
+
+#css-zen-garden {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.extra1{
+    background-image: url(images/baroqueCorner.png);
+    background-repeat: no-repeat;
+
+    width: 200px;
+    height: 200px;
+
+    position: relative;
+    right: 20px;
+    bottom: 170px;
+    transform: rotate(90deg);
+}
+
+.extra2{
+    background-image: url(images/baroqueCorner.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+
+    width: 200px;
+    height: 200px;
+    margin-right: 0;
+    transform: rotate(0deg);
+
+    position: relative;
+    bottom: 370px;
+    right: -30px;
+
+    border-right: 20px;
+}
+
+.extra3{
+    background-image: url("images/baroqueCorner.png");
+    background-repeat: no-repeat;
+
+    width: 200px;
+    height: 200px;
+
+    position: relative;
+    left: 20%;
+    top: 20%;
+
+    transform: rotate(180deg);
+}
+
+.extra4{
+    background-image: url("images/baroqueCorner.png");
+    background-repeat: no-repeat;
+
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
