@@ -92,6 +92,18 @@ footer a:link, footer a:visited {
   padding-top: 100px;
 }
 
+#zen-intro::before {
+  content: "Toccata and Fugue in D Minor";
+}
+
+#zen-intro > header {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #1C1F21;
+  text-align: center;
+}
+
 #css-zen-garden {
   margin: auto;
   max-width: 1000px;

@@ -7,6 +7,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:wght@200&family=UnifrakturCook:wght@700&display=swap');
 
 
+
+#zen-intro::before {
+    content: "Toccata and Fugue in D Minor";
+}
+#zen-intro > header {
+    @include variables.header-styling;
+    text-align: center;
+}
+
 #css-zen-garden {
     margin: auto;
     max-width: 1000px;
