@@ -352,7 +352,20 @@
     right: 10%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+
+    #css-zen-garden {
+        opacity: .8;
+        display: grid;
+        grid-template-columns: 700px;
+        grid-template-rows: auto;
+        margin: auto;
+        max-width: 700px;
+    }
+
+    .intro {
+        grid-template-columns: 600px;
+    }
 
     p{
       font-size: x-large;
@@ -389,5 +402,10 @@
       width: 80%;
       margin-left: 10%;
     }
+
+    .extra1, .extra2, .extra3, .extra4 {
+        display: none;
+    }
     
-      }
+}
+      
