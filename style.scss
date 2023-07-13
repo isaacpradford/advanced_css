@@ -351,3 +351,43 @@
     bottom: 2%;
     right: 10%;
 }
+
+@media screen and (max-width: 600px) {
+
+    p{
+      font-size: x-large;
+    }
+    
+    .summary{
+      display: block;
+      width: 40%;
+    }
+    
+      #zen-preamble {
+        display: block;
+        width: 80%;
+        text-align: left!important;
+      }
+    
+      #zen-supporting .explanation {
+        display: block;
+        width: 80%;
+        text-align: center;
+        align-self: center;
+        margin-left: 10%;
+        padding: 0;
+    }
+    
+    .participation{
+      display: block;
+      width: 80%;
+      margin-left: 10%;
+    padding-bottom: 50px;
+    }
+    
+    .benefits p {
+      width: 80%;
+      margin-left: 10%;
+    }
+    
+      }
