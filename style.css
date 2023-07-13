@@ -4,6 +4,7 @@ h1 {
   text-align: center;
   font-size: 80px;
   color: #1C1F21;
+  background-color: rgba(255, 255, 255, 0.733);
 }
 
 h2 {
@@ -22,85 +23,258 @@ h3 {
 }
 
 a {
-  color: #D64045;
+  color: #d64045;
   font-family: "Nunito", sans-serif;
-  font-size: 20px;
   text-decoration: none;
 }
 a :hover {
-  background-color: #FCC736;
+  background-color: rgba(252, 199, 54, 0.8078431373);
+  border-radius: 25%;
+  padding: 5px;
 }
 
 p {
   color: #1C1F21;
   font-family: "Maven Pro", sans-serif;
-  text-align: center;
 }
 
 footer {
   text-align: center;
+  padding: 50px;
+  font-size: 30px;
+  background-image: url("/images/Baroqueline3.png");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
 }
 footer a:link, footer a:visited {
   margin-right: 20px;
 }
 
+#css-zen-garden {
+  display: grid;
+  grid-template-columns: 200px 800px 200px;
+  grid-template-rows: 600px 600px 200px;
+  margin: auto;
+  max-width: 1200px;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, rgba(252, 199, 54, 0.8078431373) 3000px), repeating-linear-gradient(rgba(252, 199, 54, 0.1411764706), rgba(252, 199, 54, 0.2274509804));
+}
+
 .page-wrapper {
-  border-style: solid;
-  border-width: 8px;
-  padding: 5px;
+  border-style: double;
+  border-width: 4px;
+  border-color: #4A5859;
+  background-color: rgba(255, 252, 247, 0.9411764706);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 200px 800px 200px;
+  grid-template-rows: 100px 400px 100px;
+  justify-items: center;
+}
+.intro header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  background-image: url(images/BachhBach.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.intro h1 {
+  margin-top: 340px;
+}
+
+.intro::before {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  color: #1C1F21;
+  font-family: "Maven Pro", sans-serif;
+  padding-top: 20px;
+  font-size: 40px;
+  content: "Johann Sebastian Bach presents:";
+}
+
+.intro {
+  background-image: url(images/Baroqueline4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.summary {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding-top: 350px;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 80px 150px;
+  justify-items: center;
+}
+.summary p {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.summary p a {
+  text-decoration: underline;
+}
+.summary :first-child {
+  text-align: center;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#zen-summary {
+  background-image: url(images/Baroqueline4.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 100px;
+}
+
+#zen-preamble {
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding-top: 200px;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 30% 40% 30%;
+  justify-items: center;
+}
+#zen-preamble h3 {
+  margin: 0;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 0;
+}
+#zen-preamble p {
+  padding: 0 50px 0 50px;
+  text-align: center;
+}
+
+#zen-supporting {
+  padding-top: 100px;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-top: 0;
+}
+#zen-supporting #zen-explanation {
+  background-image: url("/images/baroque1.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 80px;
+}
+#zen-supporting .explanation {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 200px;
+}
+#zen-supporting .explanation h3 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#zen-supporting .explanation p {
+  padding: 0 40px 0 40px;
+  grid-row-start: 2;
+}
+
+.participation {
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+  grid-template-rows: 100px 300px;
+  justify-items: center;
+  background-image: url("/images/Baroqueline4.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.participation h3 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.participation p {
+  padding: 0 40px 0 40px;
+  grid-row-start: 2;
+}
+
+.benefits {
+  padding: 400px 50px 0px 50px;
+  text-align: center;
+  background-image: url("/images/BaroqueHands.png");
+  background-repeat: no-repeat;
+  background-position-x: 55%;
+  background-position-y: 10%;
+}
+
+.requirements {
+  background-image: url("/images/Baroqueline3.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: auto;
+}
+.requirements h3 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding-top: 100px;
+}
+.requirements p {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.requirements p:last-of-type {
+  font-size: 25px;
+  text-align: center;
+}
+
+.wrapper {
+  background-color: rgba(252, 199, 54, 0.8078431373);
 }
 
 .design-selection {
-  margin: 0 auto;
-  max-width: 80%;
+  background-color: rgba(255, 252, 247, 0.6235294118);
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 20% 80%;
+  font-size: 20px;
 }
-.design-selection li {
-  display: inline;
+.design-selection h3 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
-
-.zen-resources {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 180px;
+.design-selection nav {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding: 10px 100px 0 100px;
 }
-.zen-resources li {
-  display: inline;
+.design-selection nav ul li {
+  display: grid;
+  grid-template-columns: 30% 50% 20%;
+  list-style: none;
 }
-
-.page-wrapper {
-  border-style: solid;
-    border-width: 8px;
-  padding:5px;
-  }
-
-  .explanation{
-    background-image: url("images/BachhBach.png");
-background-repeat: no-repeat;
-  }
-
-  .explanation h3{
-padding-top: 400px;
-  }
-
-
-  footer {
-    text-align: center;
-  }
-  
-  footer a:link, footer a:visited {
-    margin-right: 20px;
-  }
-
-  .design-selection {
-    margin: 0 auto;
-    max-width: 80%;
-  }
-
-  margin: 10px;
-  border: 10px;
-  margin-left: 0;
+.design-selection nav ul li a {
+  font-size: 20px;
+  color: #d64045;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
 }
 
+.design-archives {
+  font-size: 30px;
+}
+.design-archives ul {
+  list-style: none;
+}
 .design-archives .next {
   float: left;
   padding-left: 18%;
@@ -111,78 +285,65 @@ padding-top: 400px;
   padding-right: 20%;
 }
 
-.requirements {
-  background-image: url("images/baroque1.png");
-  background-repeat: repeat-x;
-}
-.requirements img {
-  position: absolute;
-  top: 0;
-}
-.requirements h3 {
-  padding-top: 100px;
-}
-
-#zen-intro::before {
-  content: "Toccata and Fugue in D Minor";
-}
-
-#zen-intro > header {
-  font-family: "Nunito", sans-serif;
+.zen-resources {
   text-align: center;
-  font-size: 40px;
-  color: #1C1F21;
-  text-align: center;
+  padding-top: 20px;
 }
-
-#css-zen-garden {
-  margin: auto;
-  max-width: 1000px;
+.zen-resources h3 {
+  font-size: 35px;
+  margin: 50px 0 50px 0;
+}
+.zen-resources li {
+  padding: 20px;
+  font-size: 30px;
+  display: inline;
+  border: 10px;
 }
 
 .extra1 {
   background-image: url(images/baroqueCorner.png);
   background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  right: 20px;
-  bottom: 170px;
-  transform: rotate(90deg);
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 2%;
+  right: 10%;
+  transform: rotate(-90deg);
 }
 
 .extra2 {
   background-image: url(images/baroqueCorner.png);
   background-repeat: no-repeat;
   margin-left: auto;
-  width: 200px;
-  height: 200px;
-  margin-right: 0;
-  transform: rotate(0deg);
-  position: relative;
-  bottom: 370px;
-  right: -30px;
-  border-right: 20px;
-}
-
-.extra3 {
-  background-image: url("images/baroqueCorner.png");
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
-  position: relative;
-  left: 20%;
-  top: 20%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 2%;
+  left: 10%;
   transform: rotate(180deg);
 }
 
-.extra4 {
-  background-image: url("images/baroqueCorner.png");
+.extra3 {
+  background-image: url(images/baroqueCorner.png);
   background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
+  margin-left: auto;
+  width: 150px;
+  height: 150px;
   position: absolute;
-  transform: rotate(-90deg);
+  bottom: 2%;
+  left: 10%;
+  transform: rotate(90deg);
+}
+
+.extra4 {
+  background-image: url(images/baroqueCorner.png);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 2%;
+  right: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
