@@ -374,6 +374,7 @@
     .summary{
       display: block;
       width: 40%;
+      text-align: center;
     }
     
       #zen-preamble {
@@ -406,6 +407,11 @@
     .extra1, .extra2, .extra3, .extra4 {
         display: none;
     }
+
+    .intro {
+        background-image: none;
+    }
+    
     
 }
       
